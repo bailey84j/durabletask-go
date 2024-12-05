@@ -12,11 +12,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/microsoft/durabletask-go/api"
-	"github.com/microsoft/durabletask-go/backend"
-	"github.com/microsoft/durabletask-go/backend/sqlite"
-	"github.com/microsoft/durabletask-go/internal/protos"
-	"github.com/microsoft/durabletask-go/task"
+	"github.com/bailey84j/durabletask-go/api"
+	"github.com/bailey84j/durabletask-go/backend"
+	"github.com/bailey84j/durabletask-go/backend/sqlite"
+	"github.com/bailey84j/durabletask-go/pkg/protos"
+	"github.com/bailey84j/durabletask-go/task"
 )
 
 func Test_EmptyOrchestration(t *testing.T) {

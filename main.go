@@ -9,8 +9,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/microsoft/durabletask-go/backend"
-	"github.com/microsoft/durabletask-go/backend/sqlite"
+	"github.com/bailey84j/durabletask-go/backend"
+	"github.com/bailey84j/durabletask-go/backend/sqlite"
 )
 
 var (

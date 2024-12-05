@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/microsoft/durabletask-go/internal/protos"
+	"github.com/bailey84j/durabletask-go/pkg/protos"
 )
 
 var tracer = otel.Tracer("durabletask")
